@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:layout_margin="8dp"
+    tools:context="com.mts.fategocardmaker.main.MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/relativeHolder"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+            android:id="@+id/ivCard"
+            app:quickScaleEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivBorder"
+            android:layout_alignEnd="@+id/ivBorder"
+            android:layout_alignLeft="@+id/ivBorder"
+            android:layout_alignRight="@+id/ivBorder"
+            android:layout_alignStart="@+id/ivBorder"
+            android:layout_alignTop="@+id/ivBorder"
+            />
+
+        <ImageView
+            android:src="@drawable/servant_card_05_10"
+            android:id="@+id/ivBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="874dp"
+            android:maxWidth="512dp"
+           />
+
+        </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Card Maker Fate</string>
+
+    <string name="header_pick_image">Pick an image</string>
+    <string name="header_customize">Customize</string>
+    <string name="dialog_button_pick_image">Pick an image</string>
+    <string name="dialog_button_done">Done</string>
+
+    <string name="error_permission">You need to give permissions.</string>
+    <string name="error_save">Error saving card.</string>
+
+    <string name="success_save">Card saved to gallery.</string>
+
+    <string name="menu_item_image">Design</string>
+    <string name="menu_item_save">Save</string>
+</resources>

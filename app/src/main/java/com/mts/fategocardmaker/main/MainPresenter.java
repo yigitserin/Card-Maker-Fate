@@ -8,13 +8,11 @@ import java.util.ArrayList;
 
 interface MainPresenter {
     void onDestroy();
-    void designCard();
     void saveCard();
-    void pickCardImage();
     void onAllPermissionsGranted(PermissionRequestType type);
     void onAnyPermissionDenied();
     void onPickedImage(File file);
-    void onSetStars(int stars);
+    void onSetRarity(int stars);
     void onSetClass(int classId);
     int getStars();
     int getClassId();

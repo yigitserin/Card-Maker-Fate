@@ -7,7 +7,6 @@ import java.io.File;
 interface MainView {
     void showToast(int message);
     void startImagePicker();
-    void showDesignDialog();
     void setCardImage(File file);
     void setCardBorder(String resourceName);
     void saveCardToGallery();

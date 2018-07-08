@@ -3,14 +3,59 @@
 
     <string name="header_pick_image">Pick an image</string>
     <string name="header_customize">Customize</string>
+    <string name="header_quit_app">Quit App</string>
+    <string name="header_rarity">Rarity</string>
+    <string name="header_icon">Class Icon</string>
+    <string name="header_image">Pick an Image</string>
+    <string name="header_class">Class Name</string>
+    <string name="header_name">Servant Name</string>
+    <string name="header_attack">Attack</string>
+    <string name="header_health">Health</string>
+
     <string name="dialog_button_pick_image">Pick an image</string>
+    <string name="dialog_quit_app">Are you sure you want to quit application?</string>
+    <string name="dialog_stars">Stars</string>
+
     <string name="dialog_button_done">Done</string>
+    <string name="dialog_button_quit">Quit</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string name="menu_rarity">Rarity</string>
+    <string name="menu_icon">Class Icon</string>
+    <string name="menu_image">Image</string>
+    <string name="menu_class">Class Name</string>
+    <string name="menu_name">Servant Name</string>
+    <string name="menu_attack">Attack</string>
+    <string name="menu_health">Health</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_donate">Donate</string>
+
+    <string name="menu_desc_rarity">5 Star</string>
+    <string name="menu_desc_icon">Saber</string>
+    <string name="menu_desc_image">Browse</string>
+    <string name="menu_desc_class">Saber</string>
+    <string name="menu_desc_name">Mordred</string>
+    <string name="menu_desc_attack">8888</string>
+    <string name="menu_desc_health">8888</string>
+    <string name="menu_desc_rate">Please rate this application</string>
+    <string name="menu_desc_share">Please rate share application</string>
+    <string name="menu_desc_donate">Support the developer</string>
 
     <string name="error_permission">You need to give permissions.</string>
     <string name="error_save">Error saving card.</string>
 
     <string name="success_save">Card saved to gallery.</string>
 
-    <string name="menu_item_image">Design</string>
+    <string name="social_share_app">Check out the Card Maker Fate app on Play Store.</string>
+
     <string name="menu_item_save">Save</string>
+
+    <plurals name="dialog_star_count">
+        <item quantity="one">%d Star</item>
+        <item quantity="other">%d Stars</item>
+    </plurals>
+
+    <string name="star_icon">★</string>
+    <string name="beta">Beta</string>
 </resources>

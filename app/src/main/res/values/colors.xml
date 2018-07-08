@@ -3,4 +3,14 @@
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#B71C1C</color>
     <color name="colorAccent">#2979FF</color>
+
+    <color name="error_color">#f44336</color>
+    <color name="beta_color">#f44336</color>
+    <color name="beta_text_color">#FFFFFF</color>
+
+    <color name="star_1">#9d6e47</color>
+    <color name="star_2">#9d6e47</color>
+    <color name="star_3">#9a9a9a</color>
+    <color name="star_4">#d49e2f</color>
+    <color name="star_5">#d49e2f</color>
 </resources>

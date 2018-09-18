@@ -298,11 +298,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
                         classItem,
                         nameItem,
                         attackItem,
-                        healthItem,
-                        new DividerDrawerItem(),
-                        new SecondaryDrawerItem().withName(R.string.menu_rate).withIcon(FontAwesome.Icon.faw_star).withDescription(R.string.menu_desc_rate),
-                        new SecondaryDrawerItem().withName(R.string.menu_share).withIcon(FontAwesome.Icon.faw_share_alt).withDescription(R.string.menu_desc_share),
-                        new SecondaryDrawerItem().withName(R.string.menu_donate).withIcon(FontAwesome.Icon.faw_money).withDescription(R.string.menu_desc_donate)
+                        healthItem
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
@@ -329,15 +325,6 @@ public class MainActivity extends AppCompatActivity implements MainView {
                                 break;
                             case 8:
                                 setHealth();
-                                break;
-                            case 10:
-                                rateApp();
-                                break;
-                            case 11:
-                                shareApp();
-                                break;
-                            case 12:
-                                donate();
                                 break;
                         }
 
